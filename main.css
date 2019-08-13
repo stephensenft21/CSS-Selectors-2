@@ -1,0 +1,37 @@
+body{
+background: aqua;
+
+} 
+
+
+h2, p{ 
+    color: red;
+
+}
+
+
+article > p {
+color: black;
+}
+/*all sibs*/
+div ~ p {
+    background-color: yellowgreen;
+}
+/*first sibling after div*/
+div + p {
+    background-color: pink;
+}
+
+
+a {
+    background-color: green;
+}
+
+
+footer a {
+    background-color: blue;
+}
+
+.active {
+    color: blanchedalmond;
+}
